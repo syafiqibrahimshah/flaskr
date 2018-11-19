@@ -3,7 +3,6 @@ import tempfile
 
 import pytest
 from flaskr import create_app
-return self._client.get('/auth/logout')
 from flaskr.db import get_db, init_db
 
 with open(os.path.join(os.path.dirname(__file__), 'data.sql'), 'rb') as f:
